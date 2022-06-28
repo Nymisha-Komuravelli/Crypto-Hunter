@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nymisha-Komuravelli/Crypto-Hunter/static/css/main.c52e1c42.css",
+    "main.js": "/Nymisha-Komuravelli/Crypto-Hunter/static/js/main.52d47f90.js",
+    "static/js/787.70720f47.chunk.js": "/Nymisha-Komuravelli/Crypto-Hunter/static/js/787.70720f47.chunk.js",
+    "index.html": "/Nymisha-Komuravelli/Crypto-Hunter/index.html",
+    "main.c52e1c42.css.map": "/Nymisha-Komuravelli/Crypto-Hunter/static/css/main.c52e1c42.css.map",
+    "main.52d47f90.js.map": "/Nymisha-Komuravelli/Crypto-Hunter/static/js/main.52d47f90.js.map",
+    "787.70720f47.chunk.js.map": "/Nymisha-Komuravelli/Crypto-Hunter/static/js/787.70720f47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c52e1c42.css",
+    "static/js/main.52d47f90.js"
+  ]
+}
