@@ -31,7 +31,7 @@ const darkTheme = createTheme({
     type: "dark",
   },
 });
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles({
   row: {
     backgroundColor: "#16171a",
     cursor: "pointer",
@@ -45,21 +45,13 @@ const useStyles = makeStyles(() => ({
       color: "gold"
     }
   }
-}));
+});
 const CoinsTable = () => {
-  const [loading, setLoading] = useState(false);
-  const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
-  const { currency, symbol } = CryptoState();
+  const { currency, symbol, coins, loading, fetchCoins } = CryptoState();
   const history = useHistory();
-  const fetchCoins = async () => {
-    setLoading(true);
-    const { data } = await axios.get(CoinList(currency));
-    console.log(data);
-    setCoins(data);
-    setLoading(false);
-  };
+  
   useEffect(() => {
     fetchCoins();
   }, [currency]);

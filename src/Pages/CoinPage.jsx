@@ -5,7 +5,7 @@ import {
   ThemeProvider,
   Typography,
 } from "@material-ui/core";
-import { makeStyles } from "@material-ui/styles";
+import { makeStyles } from '@material-ui/core/styles';
 import axios from "axios";
 import { useParams } from "react-router-dom";
 // import ReactHtmlParser from "react-html-parser";
@@ -19,16 +19,16 @@ const theme = createTheme({});
 const useStyles = makeStyles((theme) => ({
   container: {
     display: "flex",
-    /* [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       alignItems: "center",
-    }, */
+    },
   },
   sidebar: {
     width: "30%",
-    /* [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("md")]: {
       width: "100%",
-    } */
+    },
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 25,
     paddingTop: 10,
     width: "100%",
-    /* [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("md")]: {
       display: "flex",
       justifyContent: "space-around",
     },
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("xs")]: {
       alignItems: "start",
-    }, */
+    },
   }
 }));
 
