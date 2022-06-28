@@ -2,7 +2,7 @@
   "name": "crypto-hunter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Nymisha-Komuravelli/Crypto-Hunter/",
+  "homepage": "https://github.com/Nymisha-Komuravelli/Crypto-Hunter",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.61",
@@ -23,12 +23,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
