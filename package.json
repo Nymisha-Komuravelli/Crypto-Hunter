@@ -2,7 +2,7 @@
   "name": "crypto-hunter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Nymisha-Komuravelli/Crypto-Hunter",
+  "homepage": "https://github.com/Nymisha-Komuravelli/Crypto-Hunter/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.61",
